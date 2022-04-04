@@ -31,11 +31,8 @@ nav a:hover{
     grid-gap: 10px;
 }
 
-nav, .main, .aside, .footer, .article{
+nav, .main, .aside, .footer, .article, header {
     background: black;
 }
 
-header{
-    grid-column: 1/12;
-    background: black;
-}
+
