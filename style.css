@@ -1,0 +1,41 @@
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 20px;
+}
+
+nav a:hover{
+    background-color: #555;
+}
+
+@media screen and (min-width: 768px) {
+    nav ul{
+        display: flex;
+    }
+
+    nav li{
+        flex: 1 1 0;
+    }
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 10px;
+}
+
+nav, .main, .aside, .footer, .article{
+    background: black;
+}
+
+header{
+    grid-column: 1/12;
+    background: black;
+}
