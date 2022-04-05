@@ -5,13 +5,14 @@ nav ul{
 nav a{
     text-decoration: none;
     text-align: center;
-    color: #fff;
+    color: #eee;
     display: block;
     padding: 20px;
 }
 
 nav a:hover{
-    background-color: #555;
+    background-color: #eee;
+    color: black;
 }
 
 @media screen and (min-width: 768px) {
@@ -34,5 +35,4 @@ nav a:hover{
 nav, .main, .aside, .footer, .article, header {
     background: black;
 }
-
 
