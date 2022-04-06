@@ -1,6 +1,7 @@
 nav ul{
     list-style-type: none;
     padding-top: 10px;
+    justify-content: space-around;
 }
 
 nav a{
@@ -17,12 +18,8 @@ nav a:hover{
 @media screen and (min-width: 768px){
     nav ul{
         display: flex;
-    }
-
-    nav li{
         flex: 1 1 0;
     }
-
 }
 
 #container{
@@ -48,27 +45,23 @@ nav a:hover{
     grid-area: header;
 }
 
-.main{
+#main{
     grid-area: main;
 }
 
-.mail{
-    grid-area: mail;
-}
-
-.article{
+#article{
     grid-area: article;
 }
 
-.aside{
+#aside{
     grid-area: aside;
 }
 
-.footer{
+#footer{
     grid-area: footer;
 }
 
-nav, .aside, article, .footer, header, .mail{
+nav, #aside, article, #footer, header{
     background: black;
 }
 
@@ -83,17 +76,23 @@ footer p{
     color: white;
     text-align: center;
 }
-
+/* 
 nav{
     position: fixed;
     top: 0;
     grid-area: nav;
-    width: 100%;
-    max-width: 1200px;
-    margin-left: -45px;
-}
+    max-width: 1200px;   
+} */
 
-.main img{
+#main img{
     width: 100%;
     height: 100%;
+}
+#nav-bar{
+    grid-area: nav;
+    position: relative;
+    bottom: 50px;
+}
+html{
+    background: black;
 }
