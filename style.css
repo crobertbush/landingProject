@@ -91,3 +91,7 @@ footer p{
 html{
     background: black;
 }
+
+.card{
+    margin: 25px; 
+}
