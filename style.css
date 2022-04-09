@@ -34,6 +34,7 @@ nav a:hover{
     "main main main"
     "main main main"
     "main main main"
+    "article2 article2 article2"
     "aside aside aside"
     "aside aside aside"
     "article article article"
@@ -62,6 +63,10 @@ nav a:hover{
 
 nav, #aside, article, #footer, header{
     background: black;
+}
+
+#article2{
+    grid-area: article2;
 }
 
 form{
